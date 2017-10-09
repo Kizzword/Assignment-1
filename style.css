@@ -1,0 +1,183 @@
+body {
+    background-image:url(img/bg.jpg);
+    background-size:cover;
+}
+
+#mainImg {
+    position:absolute;
+    left:450px;
+    top:5px;
+    width:300px;
+    height:200px;
+    border:solid 2px blue;
+    background-image:url(img/bg1.jpg);
+    background-size:cover;
+    
+}
+
+#leftImg {
+    position:absolute;
+    left:20px;
+    top:250px;
+    width:300px;
+    height:200px;
+    border:solid 2px white;
+    background-image:url(img/bg2.jpeg);
+    background-size:cover;
+}
+
+#rightImg {
+    position:absolute;
+    left:900px;
+    top:250px;
+    width:300px;
+    height:200px;
+    border:solid 2px white;
+    background-image:url(img/bg3.jpg);
+    background-size:cover;
+}
+
+#bottomImg {
+    position:absolute;
+    left:450px;
+    bottom:140px;
+    width:300px;
+    height:200px;
+    border:solid 2px white;
+    background-image:url(img/bg4.jpg);
+    background-size:cover; 
+    
+}
+
+#control {
+    text-align:center;
+    position:fixed;
+    width:1000px;
+    height:90px;
+    bottom:0px;
+    left:50%;
+    margin-left:-500px;
+    border-radius:20px;
+    opacity:80%;
+    transition:2s;
+    
+}
+
+.butt {
+    width:80px;
+    height:80px;
+    border:solid black 3px;
+    border-radius:20px;
+    background-color: burlywood;
+}
+
+.butt:hover {
+    background-color:bisque;
+    cursor: pointer;
+}
+
+#img1 {
+    background-image:url(img/bg1.jpg);
+    background-size:cover;
+}
+
+#img2 {
+    background-image:url(img/img1.jpeg);
+    background-size:cover;
+}
+
+#img3 {
+    background-image:url(img/img2.jpg);
+    background-size:cover; 
+}
+
+#moveLeft {
+    background-image: url(img/left.png);
+    background-size:cover;
+}
+
+#moveRight {
+    background-image: url(img/right.png);
+    background-size:cover;
+}
+
+#moveUp {
+    background-image:url(img/up.png);
+    background-size:cover;
+}
+
+#moveDown {
+    background-image:url(img/down.png);
+    background-size:cover;
+}
+
+#enlarge {
+    background-image:url(img/expand.png);
+    background-size:cover;
+}
+
+#shrink {
+    background-image:url(img/collapse.png);
+    background-size:cover; 
+}
+
+#reset {
+    position:absolute;
+    width:40px;
+    height:40px;
+    top:-47px;
+    left:480px;
+    background-color:tomato;
+    background-image:url(img/reset.png);
+    background-size:cover;
+    border:solid 1px black;
+    border-radius:50px;
+  
+}
+
+#reset:hover {
+    background-color:darksalmon;
+    border:solid 2px black;
+    cursor:pointer;
+}
+
+#show {
+    position:absolute;
+    width:30px;
+    height:30px;
+    background-color:white;
+    top:-30px;
+    left:130px;
+    background-image: url(img/up.png);
+    background-size: cover;
+    border-radius:7px;
+
+}
+
+#show:hover {
+    background-color:gainsboro;
+    cursor: pointer;
+}
+
+#hide {
+    position:absolute;
+    width:30px;
+    height:30px;
+    background-color:white;
+    top:-30px;
+    right:130px;
+    background-image: url(img/down.png);
+    background-size: cover;
+    border-radius: 7px;
+}
+
+#hide:hover {
+    background-color:gainsboro;
+    cursor:pointer;
+}
+
+
+
+
+
+
